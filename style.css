@@ -7,6 +7,7 @@
 body{
     /* background: #C6EBC5; */
     background: url(images/bg3.jpg);
+    background-repeat: no-repeat;
     background-size: 100%;
     font-family:  "Gilroy", sans-serif;
     padding: 0;
@@ -109,4 +110,10 @@ body{
     justify-content: center;
     font-family:  "Gilroy", sans-serif;
     font-weight: 500;
+}
+@media  (max-width:400px){
+    body{
+        background: url(images/bg3.jpg);
+        background-repeat: no-repeat;
+    }
 }
